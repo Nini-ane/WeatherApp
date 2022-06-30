@@ -1,0 +1,65 @@
+h1 {
+  color: black;
+}
+
+body {
+  background-image: url(media/houses.jpg);
+  background-size: cover;
+}
+
+.container {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 25px;
+  margin-top: 50px;
+  background-color: peru;
+  max-width: 60%;
+}
+
+.temperature {
+  text-align: right;
+  right: 1%;
+}
+
+.city {
+  margin-top: 30px;
+}
+
+input {
+  border: 1px solid peachpuff;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.go {
+  background-color: rgba(241, 189, 92, 0.932);
+}
+
+.monday,
+.tuesday,
+.wednesday,
+.thursday,
+.friday {
+  text-align: center;
+  padding: 3px;
+}
+
+.weather {
+  padding: 10px;
+  font-style: italic;
+}
+
+.card {
+  margin-top: 20px;
+  margin: 0 auto;
+}
+
+.coded,
+.weather {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+}
