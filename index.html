@@ -4,6 +4,7 @@
 <head>
     <title>Parcel Sandbox</title>
     <meta charset="UTF-8" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link href="src/styles.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -14,28 +15,38 @@
         <div class="row">
             <div class="col-6">
                 <h1>
-                    Bonjour, Paris
+                    <span id="target-city">
+                        Paris
+                        <span />
                 </h1>
             </div>
             <div class="col-6 temperature">
-                <h1>
-                    ☀️ 18° Celsius
+                <h1 id="current-temp">
+                    ☀️ 18°
+                    <span id="celsius"> C°<span />
+                        |
+                        <span id="fahrenheit"> F° <span />
                 </h1>
             </div>
         </div>
+        <p>
+            <span id="date">
+                Friday, 20:00
+                <span />
+                <p />
 
-        <form class="city">
-            <input type="text" placeholder="Look for your city...">
-            <input class="go" type="submit" value="Go">
-        </form>
-        <br />
-        <p class="weather">
-            This will be the weather in the next five days:
-        <div class="monday"> Monday 🌤 19° C </div>
-        <div class="tuesday"> Tuesday ☁️ 16° C </div>
-        <div class="wednesday"> Wednesday ⛅️ 17° C </div>
-        <div class="thursday"> Thursday ☀️ 22° C </div>
-        <div class="friday"> Friday 🌤 19° C </div>
+                <form id="city">
+                    <input id="city-input" type="text" placeholder="Look for your city...">
+                    <input class="go" type="submit" value="Go">
+                </form>
+                <br />
+                <p class="weather">
+                    This will be the weather in the next five days:
+                <div class="monday"> Monday 🌤 19° C </div>
+                <div class="tuesday"> Tuesday ☁️ 16° C </div>
+                <div class="wednesday"> Wednesday ⛅️ 17° C </div>
+                <div class="thursday"> Thursday ☀️ 22° C </div>
+                <div class="friday"> Friday 🌤 19° C </div>
         </p>
 
         <div class="card" style="width: 18rem;">
