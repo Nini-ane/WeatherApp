@@ -3,7 +3,7 @@ h1 {
 }
 
 body {
-  background-image: url(media/houses.jpg);
+  background-image: url(moon.jpg);
   background-size: cover;
 }
 
@@ -25,16 +25,20 @@ body {
   margin-top: 30px;
 }
 
-input {
-  border: 1px solid peachpuff;
-  border-radius: 8px;
+#city {
   display: block;
   margin: 0 auto;
-  margin-top: 10px;
+}
+
+#city-input {
+  border: 1px solid peachpuff;
+  border-radius: 8px;
 }
 
 .go {
   background-color: rgba(241, 189, 92, 0.932);
+  border-radius: 8px;
+  border: 1px solid peachpuff;
 }
 
 .monday,
